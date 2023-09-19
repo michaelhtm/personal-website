@@ -1,8 +1,12 @@
+
+
 body{
     font-family: 'opensans-regular', sans-serif;
     background-color: black;
     color: white;
     width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 header{
@@ -23,6 +27,9 @@ header{
 }
 
 ul#nav li {
+    font-size: 15px;
+    min-width: 100px;
+    padding-top: 10px;
     position: relative;
     list-style: none;
     height: 48px;
@@ -64,16 +71,17 @@ header .banner {
     margin: 15% auto;
     max-width: 1140px;
     width: 94%;
+    padding-top: 100px;
 
 }
 
 .responsive-headline{
-    font: 100px/1.1em 'opensans-bold', sans-serif;
+    font: 400% 'opensans-bold', sans-serif;
     letter-spacing: -1px;
 }
 
 section{
-    height: 100vh;
+    height: 100%;
 }
 
 .section-intro{
@@ -86,15 +94,20 @@ section{
     letter-spacing: .4rem;
 }
 
+#about{
+    height: 100%;
+    padding-bottom: 100px;
+}
+
 .intro{
     font-family: 'opensans-bold', sans-serif;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .intro-title{
-    padding: 30px;
+    padding: 25px;
     font-size: 3.6rem;
 }
 
@@ -102,22 +115,49 @@ section{
     font-size: 3.6rem;
     width: 2.5em;
     height: auto;
-    margin-left: -100px;
     border-radius: 50%;
-    float: left;
 }
 
 .intro-content{
-    font-size: 1.5em;
-}
-
-#projects{
-    background-color: white;
+    font-size: 1em;
+    padding: 40px;
 }
 
 #contact{
     background-color: #222;
+    padding-bottom: 100px;
 }
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 7% 30px;
+    justify-content: space-between;
+}
+
+
+#projects{
+    background-color: #4f0207;
+    height: 100%;
+}
+
+.col-four a{
+    color:#0aa4f1;
+    text-decoration: none;
+}
+
+.projects-content{
+    padding: 50px 20%;
+}
+
+ol > li{
+    padding-top: 20px;
+}
+
+
+
+
+
 
 
 
