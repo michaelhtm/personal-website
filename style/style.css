@@ -33,18 +33,17 @@ ul#nav li {
 
 
 #nav-wrap{
-    font: 12px bold 'opensans-bold', sans-serif;
+    font: 5px bold 'opensans-bold', sans-serif;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     margin: 0 auto;
     z-index: 100;
     position: fixed;
-    left: 0;
-    top: 0;
     display: block;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 2%;
 }
 
 ul#nav li {
